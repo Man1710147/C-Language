@@ -48,12 +48,12 @@ switch (z)
         break;
 }
 
-if ('A','B','C','D','E')
+if (z=='F')
 {
-    printf("You are eligible for the next level");
+    printf("You are not eligible for the next level");
 }
 else
 {
-    printf("Please try again next time");
+    printf("You are eligible for the next level");
 }
 }
